@@ -1,4 +1,8 @@
 language: rust
+env:
+  - CLIENT_ID=3a205160926f4b719170b1ad97c2ad01
+  - CLIENT_SECRET=1449bf2c59164f2b97f21322362fe4cd
+  - REDIRECT_URI=https://localhost:8888/callback
 rust:
   - stable
   - beta
